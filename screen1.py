@@ -27,7 +27,7 @@ class MainWin(QWidget):
         self.button.clicked.connect(self.next_click)
     def next_click(self):
         self.hide()
-        self.Object = Objects()
+        self.Object = TestWin()
 app = QApplication([])
 window = MainWin()
 app.exec_()
